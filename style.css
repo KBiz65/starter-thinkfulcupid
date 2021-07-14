@@ -91,19 +91,24 @@ header nav ul li a:hover {
 }
 
 /* -------  Join Form ------- */
+.join-form-container {
+  margin: 0;
+}
+
 form {
   border: 2px solid #6b1a22;
   padding: 10px;
+  margin: 0;
 }
 
 form label {
+  font-size: 1rem;
   font-weight: bold;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
 }
 
 form select,
@@ -160,6 +165,10 @@ footer p {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+  }
+
+  .join-form-container {
+    padding-left: 20px;
   }
 
   .about-container {
